@@ -1,3 +1,8 @@
-body {
-  background-color: pink;
-}
+@import 'variables';
+@import 'base';
+
+@import 'navbar';
+@import 'hero-image';
+@import 'footer';
+
+
