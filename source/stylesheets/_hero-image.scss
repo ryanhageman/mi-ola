@@ -1,0 +1,17 @@
+.hero-image {
+  grid-area: hero-image;
+
+  &__image {
+    width: 50%;
+  }
+
+  &__headline {
+    color: green;
+    font-size: 3rem;
+  }
+
+  &__subtitle {
+    color: purple;
+    font-size: 2rem;
+  }
+}
