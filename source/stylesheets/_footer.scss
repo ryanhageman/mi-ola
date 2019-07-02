@@ -1,3 +1,44 @@
 .footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: $lato;
+  font-size: .8rem;
   grid-area: footer;
+  padding: 20px;
+
+  &__company-name {
+    font-family: $josefin-sans;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+    @media(min-width: $tablet) {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__company-headline {
+    padding-bottom: 10px;
+  }
+
+  &__link {
+    color: $font-color;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    text-decoration: none;
+
+    &:hover {
+      color: $font-color--hover;
+      cursor: pointer;
+    }
+
+    @media(min-width: $tablet) {
+      font-size: 1.15rem;
+    }
+  }
+
+  &__copyright {
+    padding-top: 10px;
+  }
 }
