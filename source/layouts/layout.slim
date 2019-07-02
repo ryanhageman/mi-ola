@@ -5,10 +5,14 @@ html
     meta http-equiv="x-ua-compatible" content="ie=edge"
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
 
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+
     title = current_page.data.title || "MI OLA"
 
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Lato:300&display=swap" rel="stylesheet">
 
   body class="body"
     == partial "navbar"
