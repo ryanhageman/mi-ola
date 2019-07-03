@@ -12,11 +12,11 @@ html
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Lato:300,700&display=swap" rel="stylesheet">
-
   body class="body"
     == partial "navbar"
 
     .content == yield
 
     == partial "footer"
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Lato:300,700&display=swap" rel="stylesheet">
