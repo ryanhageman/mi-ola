@@ -47,6 +47,7 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
+  set :build_dir, 'docs'
   activate :relative_assets
   activate :minify_css
   activate :minify_javascript
