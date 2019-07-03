@@ -20,7 +20,7 @@
   }
 
   &__headline {
-    animation: fadeInDown 1s ease-in-out 2s;
+    animation: fadeInDown 1s ease-in-out 1s;
     animation-fill-mode: forwards;
     font-size: 1.3rem;
     line-height: 1.9rem;
@@ -34,7 +34,7 @@
   }
 
   &__subtitle {
-    animation: fadeInDown 1s ease-in-out 2s;
+    animation: fadeInDown 1s ease-in-out 1s;
     animation-fill-mode: forwards;
     line-height: 1.2rem;
     opacity: 0;
