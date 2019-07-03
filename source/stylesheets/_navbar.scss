@@ -8,10 +8,13 @@
   z-index: 1;
 
   @media(min-width: $tablet) {
+    animation: fadeIn 1.5s ease-in-out 2s;
+    animation-fill-mode: forwards;
     background-color: $navbar--background-color--desktop;
     border-bottom: 0;
     height: 60px;
     justify-content: flex-start;
+    opacity: 0;
   }
 
   &__logo {
