@@ -1,0 +1,14 @@
+.body {
+  background-color: $background-color;
+  color: $font-color;
+  display: grid;
+  grid-template-areas:
+  'navbar'
+  'content'
+  'footer';
+  margin: 0;
+}
+
+.content {
+  grid-area: content;
+}

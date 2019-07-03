@@ -1,3 +1,9 @@
-body {
-  background-color: pink;
-}
+@import 'variables';
+@import 'base';
+
+@import 'navbar';
+@import 'hero-image';
+@import 'footer';
+
+@import 'privacy_policy';
+@import 'terms_of_use';

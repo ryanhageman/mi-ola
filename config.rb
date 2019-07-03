@@ -1,9 +1,15 @@
+require 'slim'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
+
+activate :livereload
+
+set :relative_links, true
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -41,6 +47,8 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
+  set :build_dir, 'docs'
+  activate :relative_assets
   activate :minify_css
   activate :minify_javascript
 end
